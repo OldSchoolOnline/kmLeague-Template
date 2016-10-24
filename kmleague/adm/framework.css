@@ -1,0 +1,72 @@
+body{background-color: #FFFCF4; margin: 0px; padding: 0px;}
+body, td{font-size: 10px; font-family: Verdana;}
+.tooltip, div.nicetitle {font: 11px/12px Verdana,Arial,serif; color: #fff; background: #900; padding: 5px; border: 2px double #fff; -moz-border-radius: 3px; position: absolute; overflow: hidden; opacity: .90;}
+div.nicetitle pre {font-family: "Tahoma",monospace,fixed;}
+
+img{border: 0px;}
+.formHead, .formHeadR{vertical-align: top; font-weight: bold;}
+.formHeadR{color: #900;}
+.formListHead{font-weight: bold; text-align: center; background-color: #69614A; color: #FFFCF4;}
+.formListHead2{font-weight: bold; text-align: center; background-color: #4E4015; color: #FFFCF4;}
+
+.formButtons{text-align: right; background-color: #EBE8E0;}
+.formListItem0{background-color: #F7F2E5;}
+.formListItem1{background-color: #EBE8E0;}
+.formListItem2{background-color: #CBC5B2; font-weight: bold; text-align: center;}
+.formListItemA{background-color: #E5D9BA;}
+.formItem{background-color: #F7F2E6;}
+.formInfo{font-weight: bold; text-align: right;}
+
+.legenda{line-height: 16px; font-size: 10px;}
+a{text-decoration: none; color: #900; font-weight: bold;}
+a:hover{color: #A00;}
+a.cont:hover{border-bottom: #900 1px solid;}
+tr.fk_form:hover{background-color: #F9F3F3;}
+select, input, textarea{font-size: 11px; font-family: Verdana; border: solid 1px #D4D0C8;}
+input:focus, select:focus, textarea:focus{border-color: #000; color: #900; background-color: #FFFFEA;}
+input:hover, select:hover, textarea:hover{border-color: #000; color: #900;}
+input.brd0{border: 0px;}
+
+.bold{font-weight: bold; color: #300;}
+.req{border-color: #900; color: #A00;}
+input.req:hover{border-color: #F00; background-color: #FFFFEA;}
+.submit{border-color: #900; color: #FFF; background-color: #900;}
+.submit2{border-color: #900; color: #FFF; background-color: #300;}
+.hd{font-weight: bold;}
+.hd2{font-weight: bold; color: #006; font-size: 10px; letter-spacing: 1.1px;}
+.hd3{text-align: left; padding-left: 20px; padding-top: 50px; line-height: 16px;}
+.sbutton{text-align: right;}
+.fcontent, .fcontent1, .fcontent2{line-height: 16px;}
+.fcontent1{width: 400px;}
+.fcontent2{width: 250px;}
+.cmargin{padding-left: 10px;}
+.fzestawienie{padding-top: 80px;}
+.tab_inf{text-align: right;}
+.fhd{font-weight: 12px; letter-spacing: 1.1px; font-weight: bold;}
+.fhd2{color: #900; text-align: center;}
+a.edit{color: #900; font-weight: bold;}
+a.edit:hover{color: #F00;}
+.trBg0{background-color: #FFF;}
+.trBg1{background-color: #FCFFEC;}
+.info{font-weight: bold; letter-spacing: 1.1px; color: #F00; font-size: 10px; padding-top: 20px;}
+.head{font-weight: bold; letter-spacing: 1.1px; color: #600; font-size: 10px;}
+.cen{text-align: center;}
+.clear{clear: both;}
+.brdr0{border-width: 0px;}
+#logo{height: 71px; background-image: url('bg_top.gif'); width: 100%;}
+#logo img{vertical-align: bottom;}
+#logo div.client{float: left;}
+#logo div.kmp{float: right;}
+#menu{clear: both; height: 29px; line-height: 29px; background-image: url('bg_menu.gif'); color: #FFFCF4; font-weight: bold; padding-left: 10px; vertical-align: middle;}
+#menu a{color: #FFFCF4;}
+#menu a:hover{border-bottom: 1px solid #300;}
+#menu img{margin-top: 7px;}
+#menu2{clear: both; height: 28px; line-height: 28px; background-image: url('bg_menu2.gif'); color: #FFFCF4; font-weight: bold; padding-left: 10px; vertical-align: middle;}
+#menu2 a{color: #FFFCF4;}
+#menu2 a:hover{border-bottom: 1px solid #E00;}
+#menu2 img{margin-top: 6px;}
+#content{padding: 10px;}
+form{padding: 0px; margin: 0px;}
+.warning{background-image: url('warning.gif'); background-repeat: no-repeat; background-position: 0; padding-left: 20px; padding-top: 20px; font-weight: bold;}
+a.awh{color: #FFF;}
+a.awh:hover{text-decoration: underline;}

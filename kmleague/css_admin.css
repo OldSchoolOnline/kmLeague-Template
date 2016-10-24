@@ -1,0 +1,102 @@
+html,body{color: black; background-color: #FFFCF4; margin: 0px; padding: 0px;}
+div,td,body{font-family: Verdana; font-size: 10px;}
+img{border: 0px;}
+
+div { 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#website{height: 100%;}
+div#menu{border: #300 1px solid; float: left; background-color: #EAC5A1;}
+div#content{background-color: #FFFCF4;}
+
+#matches{width: 440px;}
+
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+.top_right{text-align: right; color: #FFFFFF; background-color: #330000; padding-top: 3px; padding-bottom: 3px; padding-right: 10px;}
+a.atop_right{color: #FFFFFF;}
+a.atop_right:hover{color: #FFFF00;}
+
+div#main_content{padding: 10px; margin: 10px; text-align: center;}
+
+
+.menu_head2, .menu_head{background-image: url('adm/bg_head.gif'); font-weight: bold; color: #FFF; letter-spacing: 1.2px;}
+.menu_head{padding-left: 5px; vertical-align: bottom; padding-top: 2px; line-height: 22px; height: 24px;}
+.menu_head2{letter-spacing: 2px; padding: 6px;}
+.menu_head img{margin-right: 10px;}
+.menu_content{background-color: #EAC5A1; padding-left: 5px;}
+
+.menu_link{line-height: 14px; display: block;}
+a.menu_link, a.foot_link{color: #660000;}
+a.menu_link:hover, a.foot_link:hover{color: #CC0000;}
+
+.logo{background-color: #330000; text-align: center; padding-bottom: 10px; padding-top: 10px;}
+
+.list0{background-color: #F9F7F2;}
+.list1{background-color: #EBE8E0;}
+.list2{background-color: #F5F2EA}
+
+.list{border-width: 0px; background-color: #FFFCF4;}
+
+.hd{font-weight: bold;}
+.hd1{font-weight: bold; color: #600;}
+.hd2{font-weight: bold; text-align: center;}
+.sb{text-align: right;}
+.clear{clear: both;}
+
+.head{font-weight: bold; font-size: 11px; letter-spacing: 1.1px; color: #600;}
+.cb{border-width: 0px;}
+.comment{margin-left: 10 px; margin-right: 10 px;}
+.table{color: white; padding-left: 5 px; padding-right: 5 px;}
+.white{color: white;}
+.auth{font-family: Tahoma; font-size: 11px; color: white;}
+.margin{padding: 5px,5px,5px,5px}
+blockquote{text-align: justify;}
+.txt{text-align: justify;}
+.foot{padding-left: 3px; padding-top: 30px; padding-bottom: 10px; text-align: left; font-size: 10px; color: #663300;}
+.header{font-size: 11px; color: darkred; font-weight: bolder;}
+.info{color: #B90000;}
+div.infoAction{color: #B90000; font-weight: bold; padding: 10px; margin: 10px; text-align: center; border: 1px solid #E5D9BA; background: #FFF;}
+
+
+div.blockHead{cursor: pointer; font-weight: bold; color: #009; text-decoration: none; padding-top: 3px; padding-bottom: 3px;}
+div.blockHead:hover{color: #D00; background-color: #F3ECDA;}
+.blockElement{cursor: pointer;}
+div.blockElement:hover, td.blockElement:hover{background-color: #F3ECDA;}
+.block{display: none;}
+
+.italic{font-style: italic;}
+.bold{font-weight: bold}
+.underline{text-decoration: underline;}
+
+.action_info{font-weight: bold; color: #600;}
+.center{text-align: center;}
+
+
+/*framework*/
+.formHead, .formHeadR{vertical-align: top; font-weight: bold;}
+.formHeadR{color: #900;}
+.formListHead{font-weight: bold; text-align: center; background-color: #69614A; color: #FFFCF4;}
+.formButtons{text-align: right; background-color: #EBE8E0;}
+.formListItem0{background-color: #F7F2E5;}
+.formListItem1{background-color: #EBE8E0;}
+.formListItem2{background-color: #CBC5B2; font-weight: bold; text-align: center;}
+.formListItemA{background-color: #E5D9BA;}
+.formItem{background-color: #F7F2E6;}
+.formInfo{font-weight: bold; text-align: right;}
+
+input.addItem{color: #FFF; background-color: #600; border: 1px solid #900;}
+input.addItem:hover{background-color: #900; border: 1px solid #600; color: #FFF;}
+
+.tooltip, div.nicetitle {font: 11px/12px Verdana,Arial,serif; color: #fff; background: #900; padding: 5px; border: 2px double #fff; -moz-border-radius: 3px; position: absolute; overflow: hidden; opacity: .90;}
+div.nicetitle pre {font-family: "Tahoma",monospace,fixed;}
+.silver{color: #999;}
+
+
+select, input, textarea{font-size: 11px; font-family: Verdana; border: solid 1px #D4D0C8;}
+input:focus, select:focus, textarea:focus{border-color: #000; color: #900; background-color: #FFFFEA;}
+input:hover, select:hover, textarea:hover{border-color: #000; color: #900;}
+input.brd0{border: 0px;}

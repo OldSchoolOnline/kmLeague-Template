@@ -1,0 +1,66 @@
+.ddmx {
+	width: 150px;
+    font: 11px tahoma;
+}
+.ddmx .item1,
+.ddmx .item1:hover,
+.ddmx .item1-active,
+.ddmx .item1-active:hover {
+	color: #660000;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+}
+.ddmx .item1:hover,
+.ddmx .item1-active,
+.ddmx .item1-active:hover {
+	color: #CC0000;
+}
+
+.ddmx .item2,
+.ddmx .item2:hover,
+.ddmx .item2-active,
+.ddmx .item2-active:hover {
+    padding: 3px 8px 4px 8px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    z-index: 500;
+}
+.ddmx .item2 {
+    background: #860101;
+    color: #ffffff;
+}
+.ddmx .item2:hover,
+.ddmx .item2-active,
+.ddmx .item2-active:hover {
+    background: #A70202;
+    color: #ffffff;
+}
+.ddmx .arrow,
+.ddmx .arrow:hover {
+    padding: 3px 16px 4px 8px;
+}
+.ddmx .item2 img,
+.ddmx .item2-active img{
+    position: absolute;
+    top: 4px;
+    right: 1px;
+    border: 0;
+}
+.ddmx .section {
+    border: 1px solid #330;
+	 background-color: #860101;
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.ddmx .bottom,
+.ddmx .bottom:hover {
+    border-bottom: 1px solid #000000;
+}
+
+* html .ddmx td { position: relative; } /* ie 5.0 fix */
